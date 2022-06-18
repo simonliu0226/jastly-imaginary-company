@@ -1,0 +1,240 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,300;1,400;1,500&display=swap');
+
+/* Universal Styles */
+
+html {
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+
+h2 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.75rem;
+    color: #f76f73;
+}
+
+
+p {
+    text-align: center;
+    font-size: 1.25rem;
+    font-style: italic;
+    color: #f76f73;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 820px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 8px;
+    }
+}
+
+
+/* Header */
+header {
+    display: flex;
+    width: 100%;
+    margin-top: 0;
+    padding-top: 1rem;
+    padding-bottom: 0;
+    height: 5.5rem;
+    position: fixed;
+    z-index: 5;
+    background-color: white;
+    top: -0.5rem;
+    border-bottom: 1px solid #f76f73;
+}
+
+header a img {
+    max-width: 4rem;
+    height: auto;
+}
+
+header nav {
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-size: 1.5rem;
+    margin: 0px;
+    padding: 0;
+}
+
+nav ul a {
+    padding: 1rem;
+    border: 1px solid #f76f73;
+    border-radius: 5px;
+}
+
+ul a {
+    text-decoration: none;
+    color: #f76f73;
+}
+
+ul a:link {
+    color: #f76f73;
+}
+
+ul a:hover {
+    color: #ec4146;
+    background-color: #ffeeee;
+}
+
+ul a:active {
+    color: red;
+}
+
+
+/* Main */
+main {
+    position: relative;
+    top: 5.5rem;
+}
+
+
+/* Main Banner */
+.banner {
+    background: rgba(0, 0, 0, 0.2) url(../images/Banner-House.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    height: 45rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner img {
+    height: 20rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    filter: saturate(2);
+    margin-right: 0.5rem;
+}
+
+.banner h1 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.15);
+    min-height: 2.5rem;
+    margin-left: 0.5rem;
+    font-size: 2rem;
+    letter-spacing: 0.02rem;
+    word-spacing: 0.02rem;
+}
+
+
+/* Main Mission Statement */
+#mission {
+    margin: 5rem 2rem;
+    scroll-margin-top: 7rem;
+}
+
+
+/* Main Services */
+#services {
+    scroll-margin-top: 7rem;
+}
+
+#services h2 {
+    margin: 2.5rem auto;
+}
+
+.services-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.services-container div p {
+    margin: 0.75rem;
+}
+
+.services-container div img {
+    max-width: 20rem;
+    max-height: 15rem;
+}
+
+
+/* Main Team */
+#team {
+    position: relative;
+    top: 2rem;
+    scroll-margin-top: 7rem;
+}
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 3rem auto;
+}
+
+.team-container div img {
+    max-width: 15rem;
+    max-height: 20rem;
+}
+
+.team-container div h4 {
+    text-align: center;
+    color:#f76f73;
+    font-size: 1.5rem;
+    margin: 0.75rem auto;
+}
+
+.team-container div p {
+    max-width: 15rem;
+}
+
+
+/* Main Contact */
+#contact {
+    background-color: #f76f73;
+    height: 12rem;
+}
+
+#contact h2 {
+    margin-top: 5rem;
+}
+
+#contact h2, #contact p {
+    color: white;
+    position: relative;
+    top: 2rem;
+}
+
+
+/* Footer */
+footer {
+    position: relative;
+    top: 4rem;
+    background-color: #f76f73;
+    margin: 0;
+    height: 100%;
+}
+
+footer p {
+    color: white;
+    text-align: left;
+    margin: 0 2rem;
+}
+
